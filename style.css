@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   text-align: center;
   border: 1px solid white;
@@ -18,24 +18,19 @@ h1 {
 }
 
 #container {
-  background-color: none;
-  width: 30vh;
-  height: 50vh;
-  position: fixed;
-  top: 25%;
-  left: 22%;
+  text-align: center;
 }
 
 .btn {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 19px;
+  padding: 5px;
+  width: 150px;
   border: 1px solid black;
-  margin: 10%;
-  width: 40vw;
-  height: 2.5vh;
-  border: 2px solid red;
-  background-color: #33B933;
-  border-radius: 20px;
+  background-color: rgb(225, 148, 1);
+  border-radius: 5px;
+  margin-top: 15px;
+  transform: translateX(-20%);
 }
 
 .btn:active {
@@ -87,9 +82,6 @@ background-color: brown;
 }
 .btn1{
   border: 5px solid black;
-  height: 3vh;
-  width: 25vw;
-  font-size: 25px;
   background-color: seagreen;
 }
 .btn1:active{
